@@ -26,11 +26,14 @@ body {
 }
 
 h2 {
+  margin-top: 5rem;
+}
+
+h2 a {
   font-size: 6.5rem;
-  font-weight: 00;
   animation: lights 5s 750ms linear infinite;
   font-family: Yanone Kaffeesatz, sans-serif;
-  margin-top: 5rem;
+  text-decoration: none;
 }
 
 @keyframes lights {
