@@ -30,7 +30,7 @@ h2 {
 }
 
 h2 a {
-  font-size: 6.5rem;
+  font-size: 4.5rem;
   animation: lights 5s 750ms linear infinite;
   font-family: Yanone Kaffeesatz, sans-serif;
   text-decoration: none;
@@ -86,8 +86,8 @@ h2 a {
 
 ul {
   list-style: none;
-  width: min(100vw, 130rem);
-  max-width: 130rem;
+  width: min(100vw, 70rem);
+  max-width: 70rem;
   display: flex;
   overflow-y: hidden;
   padding-bottom: 2rem;
@@ -95,7 +95,7 @@ ul {
 
 #vampire-gallery::-webkit-scrollbar {
   width: 12px;
-  height: 13px;
+  height: 7px;
 }
 
 #vampire-gallery::-webkit-scrollbar-thumb {
@@ -106,14 +106,14 @@ ul {
 
 li {
   flex: 0 0 45vw;
-  max-width: 28rem;
+  max-width: 17rem;
   position: sticky;
   top: 0;
   left: 0;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 43rem;
+  height: 23rem;
 }
 
 li span {
@@ -131,7 +131,7 @@ li span {
 li::before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 0%;
   transform: translate(0%, -50%);
   height: 110%;
@@ -142,7 +142,7 @@ li::before {
 
 li img {
   display: block;
-  height: 50rem;
+  height: 27rem;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
@@ -168,7 +168,7 @@ li img {
 }
 li {
   flex: 0 0 45vw;
-  max-width: 28rem;
+  max-width: 15rem;
   position: sticky;
   top: 0;
   left: 0;
@@ -194,6 +194,13 @@ h2 {
     font-family: Yanone Kaffeesatz, sans-serif;
     margin-top: 5rem;
 }
+}
+
+@media (max-width: 472px) {
+  h2 a {
+    font-size: 2.5rem;
+    text-align: center;
+  }
 }
 
 @media (min-width: 53rem) {
